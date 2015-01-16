@@ -2,7 +2,8 @@ Package.describe({
     summary: "Standalone test spies, stubs and mocks for JavaScript.",
     name: "practicalmeteor:sinon",
     version: "1.10.3_2",
-    git: "https://github.com/practicalmeteor/meteor-sinon.git"
+    git: "https://github.com/practicalmeteor/meteor-sinon.git",
+    debugOnly: true
 });
 
 Package.onUse(function (api, where) {
