@@ -3,7 +3,8 @@ Package.describe({
     name: "practicalmeteor:sinon",
     version: "1.14.1_2",
     git: "https://github.com/practicalmeteor/meteor-sinon.git",
-    debugOnly: true
+    debugOnly: true,
+    testOnly: true
 });
 
 Package.onUse(function (api, where) {
